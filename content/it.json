@@ -1,0 +1,111 @@
+{
+ "ui": {"nav": "Pagine", "help": "Aiuto", "privacy": "Privacy", "updated": "Ultimo aggiornamento", "date": "25 novembre 2026"},
+ "help": {
+  "title": "Rewound – Aiuto",
+  "desc": "Come usare Rewound: registrare un suono, ascoltarlo al contrario e imparare a dirlo al contrario.",
+  "h1": "Aiuto",
+  "lede": "Rewound registra un suono e lo riproduce al contrario. Poi ti insegna a dirlo al contrario da solo.",
+  "sections": [
+   {"h": "Cosa fa Rewound", "b": [
+    "Registra un suono qualsiasi e ascoltalo all’incontrario. Il gioco fa un passo in più: dici una frase breve, la ascolti al contrario e provi a imitare quel suono rovesciato con la tua voce. Rewound rimette al verso giusto il tuo tentativo e ti dice quanto ci sei andato vicino."
+   ]},
+   {"h": "Registrare", "b": [[
+    "Apri la scheda «[[rec]]» e tocca il grande tasto rotondo. Di’ qualcosa, poi toccalo di nuovo per fermare.",
+    "La prima volta iOS chiede se Rewound può usare il microfono. Consenti, altrimenti non può registrare.",
+    "Se vuoi, attiva «[[countdown]]» in «[[settings]]» (l’icona a forma di ingranaggio): conta 3, 2, 1 prima di cominciare.",
+    "Una registrazione si apre con «[[rev]]» selezionato. Tocca il tasto di riproduzione per ascoltarla al contrario, oppure scegli «[[fwd]]» per sentirla come l’hai detta. Tocca o trascina sulla forma d’onda per saltare dove vuoi."
+   ]]},
+   {"h": "Il gioco da solo", "b": [
+    "Apri la scheda «[[game]]» e lascia selezionato «[[solo]]».",
+    {"ol": [
+     "Di’ una frase breve e ascoltala al contrario.",
+     "Sotto il lettore la frase è tagliata nei suoi momenti di silenzio in pezzi numerati, da due a sei. Tocca un pezzo e va in loop. Attiva «[[slow]]» per sentirlo a 0,6× di velocità.",
+     "Tocca «[[copy]]» e registra la tua imitazione del suono al contrario.",
+     "Rewound rimette al verso giusto il tuo tentativo e gli dà un punteggio su 100. Ogni pezzo riceve un segno e il suo numero: ✓ centrato, = quasi, ✗ fuori. Dice qual è il pezzo che si è allontanato di più, e «[[practise]]» (con il numero di quel pezzo) ti ci riporta subito.",
+     "«[[save]]» mette la partita nella tua «[[lib]]»."
+    ]},
+    "Puoi riprovare la stessa frase fino a 10 volte. Poi comincia con una nuova."
+   ]},
+   {"h": "Giocare con gli amici", "b": [
+    "Nella scheda «[[game]]» scegli «[[party]]» e imposta il numero di giocatori, da 2 a 6. Tocca un giocatore per scrivere il nome; Rewound ricorda i nomi.",
+    "Uno di voi registra la frase, poi tutti la imitano a turno passandosi il telefono. Alla fine compare una classifica che parte dal tentativo più vicino, e ogni tentativo si può riascoltare rimesso al verso giusto.",
+    "«[[rematch]]» fa partire un’altra partita con la stessa frase. «[[save]]» tiene la partita nella «[[lib]]»."
+   ]},
+   {"h": "Una frase con cui giocare", "b": [
+    "Una registrazione di massimo 15 secondi può diventare la frase del gioco: aprila e tocca «[[copygame]]». Una partita salvata ha «[[again]]».",
+    "Non ti viene in mente niente? Sotto «[[idea]]» trovi un suggerimento, e «[[another]]» mostra il successivo. Sono solo spunti: di’ quello che vuoi."
+   ]},
+   {"h": "Come si calcola il punteggio", "b": [
+    "Rewound confronta la frase originale con il tuo tentativo dopo che è stato rimesso al verso giusto. Guarda il ritmo (quanto è forte ogni momento) e la brillantezza (i suoni sibilanti rispetto alle vocali). Tutto avviene sul tuo iPhone.",
+    "Parlare un po’ più veloce o più lento non viene penalizzato. Il punteggio è per divertirsi, non misura quanto canti bene, e non è riconoscimento vocale: Rewound non capisce le parole, confronta solo la forma dei due suoni. I segni sotto i pezzi nascono dallo stesso confronto."
+   ]},
+   {"h": "Libreria, vibrazione ed eliminazione", "b": [[
+    "Le tue registrazioni e le partite salvate stanno nella scheda «[[lib]]». Scorri una riga per eliminarla; tienila premuta per rinominarla. La versione gratuita conserva 5 elementi.",
+    "«[[settings]]» › «[[delall]]» cancella tutto in un colpo.",
+    "Per spegnere la vibrazione vai in «[[settings]]» › «[[haptics]]»."
+   ]]},
+   {"h": "Qualcosa non va?", "b": [
+    {"q": "Il tasto di registrazione non fa niente, oppure c’è scritto «[[micoff]]»", "a": "Rewound non ha il permesso di usare il microfono. Apri le [[settings]] dell’iPhone › Rewound e attiva Microfono. Il microfono viene usato solo mentre registri."},
+    {"q": "La mia registrazione si è fermata dopo 15 secondi", "a": "È il limite della versione gratuita. Pro registra fino a 5 minuti."},
+    {"q": "Ho comprato Pro ma è ancora bloccato", "a": "Tocca «[[restore]]» nella schermata di Pro, sotto il tasto di acquisto, oppure in «[[settings]]» (l’ingranaggio). Usa lo stesso account Apple con cui hai comprato."}
+   ]},
+   {"h": "Rewound Pro", "b": [
+    "Pro è un acquisto unico, senza abbonamento. Il gioco, i suoi pezzi e le partite a turni restano gratis. Pro aggiunge:",
+    [
+     "registrazioni fino a 5 minuti (gratis: 15 secondi)",
+     "una libreria illimitata (gratis: 5 elementi)",
+     "l’importazione di suoni: «[[importfiles]]» e «[[importvideo]]» (un video da Foto; Rewound ne prende solo l’audio)",
+     "velocità da 0,5× a 2× e tonalità fino a 12 semitoni sopra o sotto, in «[[effects]]»",
+     "«[[loop]]», che ripete il tratto tra le due maniglie sulla forma d’onda, e «[[trim]]», che tiene solo quel tratto",
+     "esportazione in m4a (file leggero) o wav (senza perdita) con il tasto di condivisione"
+    ],
+    "Importa solo suoni che hai il diritto di usare."
+   ]},
+   {"h": "Contatti", "b": [
+    "Domande o problemi? Scrivi a {mail}."
+   ]}
+  ]
+ },
+ "privacy": {
+  "title": "Rewound – Privacy",
+  "desc": "Rewound non raccoglie dati personali e non invia nulla allo sviluppatore.",
+  "h1": "Privacy",
+  "lede": "In breve: Rewound non raccoglie nulla su di te e non invia nulla allo sviluppatore.",
+  "sections": [
+   {"h": "In sintesi", "b": [
+    "Rewound non raccoglie dati personali. Non c’è nessun account o accesso, nessuna pubblicità, nessuna analisi né tracciamento, nessun SDK di terze parti. Allo sviluppatore non viene inviato nulla."
+   ]},
+   {"h": "Microfono", "b": [
+    "Rewound ascolta solo mentre hai toccato il tasto di registrazione e una registrazione è in corso. iOS chiede il tuo permesso la prima volta che registri. Se hai detto di no, puoi consentirlo in seguito da Impostazioni dell’iPhone › Rewound › Microfono."
+   ]},
+   {"h": "Cosa viene salvato e dove", "b": [
+    "Le tue registrazioni, le partite salvate, i nomi dei giocatori e le impostazioni sono conservati solo sul tuo dispositivo, nello spazio dell’app. Le impostazioni sono il conto alla rovescia, la vibrazione, il numero di giocatori, l’informazione se Pro è stato acquistato e un contatore che decide quando l’app può chiedere una valutazione.",
+    "Se il backup è attivo, questi dati possono finire nel backup del tuo dispositivo (iCloud o computer), come i dati di qualsiasi app. Rewound non ha accesso a quel backup."
+   ]},
+   {"h": "Foto e File", "b": [
+    "L’importazione usa i selettori del sistema. Con un video da Foto, Rewound riceve solo il video che scegli e ne estrae l’audio; non serve il permesso di accedere alla tua libreria foto. Con File, riceve solo il file che scegli."
+   ]},
+   {"h": "Condividere una registrazione", "b": [
+    "Una registrazione esce dal dispositivo solo quando la esporti tu con il foglio di condivisione. Sei tu a decidere dove va."
+   ]},
+   {"h": "Acquisti", "b": [
+    "Rewound Pro si acquista tramite Apple (App Store). Lo sviluppatore non vede mai i tuoi dati di pagamento. L’app chiede ad Apple, sul tuo dispositivo, se Pro è stato acquistato. Le uniche richieste che escono dal dispositivo sono quelle di acquisto dell’App Store."
+   ]},
+   {"h": "Richiesta di valutazione", "b": [
+    "Quando l’app ti chiede di valutarla, si tratta della finestra standard di iOS. Lo sviluppatore non vede chi ha valutato né cosa ha scritto."
+   ]},
+   {"h": "Eliminare i tuoi dati", "b": [
+    "Elimina gli elementi uno a uno nella «[[lib]]», tutto insieme con «[[settings]]» › «[[delall]]», oppure elimina l’app: così sparisce tutto."
+   ]},
+   {"h": "Bambini", "b": [
+    "Rewound non raccoglie dati da nessuno, quindi nemmeno dai bambini."
+   ]},
+   {"h": "Modifiche", "b": [
+    "Se questa informativa cambia, la nuova versione sarà pubblicata in questa pagina, con la data. Ultimo aggiornamento: 25 novembre 2026."
+   ]},
+   {"h": "Contatti", "b": [
+    "Domande sulla privacy? Scrivi a {mail}."
+   ]}
+  ]
+ }
+}

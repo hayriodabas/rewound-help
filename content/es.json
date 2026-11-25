@@ -1,0 +1,111 @@
+{
+ "ui": {"nav": "Páginas", "help": "Ayuda", "privacy": "Privacidad", "updated": "Última actualización", "date": "25 de noviembre de 2026"},
+ "help": {
+  "title": "Rewound – Ayuda",
+  "desc": "Cómo usar Rewound: grabar un sonido, escucharlo al revés y aprender a decirlo al revés.",
+  "h1": "Ayuda",
+  "lede": "Rewound graba un sonido y lo reproduce al revés. Después te enseña a decirlo al revés tú mismo.",
+  "sections": [
+   {"h": "Qué hace Rewound", "b": [
+    "Graba cualquier sonido y escúchalo del revés. El juego va un paso más allá: dices una frase corta, la escuchas al revés e intentas imitar ese sonido invertido con tu voz. Rewound le da la vuelta a tu intento y te dice cuánto te acercaste."
+   ]},
+   {"h": "Grabar", "b": [[
+    "Abre la pestaña «[[rec]]» y toca el botón grande y redondo. Di algo y vuelve a tocarlo para parar.",
+    "La primera vez, iOS pregunta si Rewound puede usar el micrófono. Di que sí; si no, no puede grabar.",
+    "Si quieres, activa «[[countdown]]» en «[[settings]]» (el icono del engranaje): cuenta 3, 2, 1 antes de empezar a grabar.",
+    "Una grabación se abre con «[[rev]]» seleccionado. Toca el botón de reproducir para oírla al revés, o elige «[[fwd]]» para oírla como la dijiste. Toca o arrastra sobre la onda para saltar a cualquier punto."
+   ]]},
+   {"h": "El juego en solitario", "b": [
+    "Abre la pestaña «[[game]]» y deja seleccionado «[[solo]]».",
+    {"ol": [
+     "Di una frase corta y escúchala al revés.",
+     "Bajo el reproductor, la frase está cortada en trozos numerados, de dos a seis, por sus momentos de silencio. Toca un trozo y se repite en bucle. Activa «[[slow]]» para oírlo a 0,6× de velocidad.",
+     "Toca «[[copy]]» y graba tu imitación del sonido al revés.",
+     "Rewound le da la vuelta a tu intento y le pone una puntuación sobre 100. Cada trozo recibe una marca y su número: ✓ clavado, = casi, ✗ lejos. Dice cuál fue el trozo que más se desvió, y «[[practise]]» (con el número de ese trozo) te lleva de vuelta a él.",
+     "«[[save]]» guarda la ronda en tu «[[lib]]»."
+    ]},
+    "Puedes probar la misma frase hasta 10 veces. Después, empieza una nueva."
+   ]},
+   {"h": "Jugar con amigos", "b": [
+    "En la pestaña «[[game]]» elige «[[party]]» y ajusta el número de jugadores, de 2 a 6. Toca a un jugador para escribir su nombre; Rewound recuerda los nombres.",
+    "Uno de vosotros graba la frase, y luego todos la imitan por turnos pasándose el teléfono. Al final aparece una tabla que empieza por el intento más cercano, y cada intento se puede volver a escuchar dado la vuelta.",
+    "«[[rematch]]» empieza otra ronda con la misma frase. «[[save]]» guarda la ronda en la «[[lib]]»."
+   ]},
+   {"h": "Una frase para jugar", "b": [
+    "Una grabación de hasta 15 segundos puede ser la frase del juego: ábrela y toca «[[copygame]]». Una ronda guardada tiene «[[again]]».",
+    "¿No se te ocurre nada? Bajo «[[idea]]» hay una sugerencia, y «[[another]]» muestra la siguiente. Son solo ideas: di lo que quieras."
+   ]},
+   {"h": "Cómo se calcula la puntuación", "b": [
+    "Rewound compara la frase original con tu intento una vez vuelto del revés. Mira el ritmo (cómo de fuerte suena cada momento) y el brillo (los sonidos siseantes frente a las vocales). Todo ocurre en tu iPhone.",
+    "Hablar un poco más rápido o más lento no se penaliza. La puntuación es para divertirse, no mide lo bien que cantas, y tampoco es reconocimiento de voz: Rewound no entiende palabras, solo compara la forma de los dos sonidos. Las marcas bajo los trozos salen de la misma comparación."
+   ]},
+   {"h": "Biblioteca, vibración y borrado", "b": [[
+    "Tus grabaciones y rondas guardadas están en la pestaña «[[lib]]». Desliza una fila para borrarla; mantenla pulsada para cambiarle el nombre. La versión gratuita guarda 5 elementos.",
+    "«[[settings]]» › «[[delall]]» borra todo de una vez.",
+    "Para quitar la vibración, ve a «[[settings]]» › «[[haptics]]»."
+   ]]},
+   {"h": "¿Algo no funciona?", "b": [
+    {"q": "El botón de grabar no hace nada, o dice «[[micoff]]»", "a": "Rewound no tiene permiso para usar el micrófono. Abre los [[settings]] del iPhone › Rewound y activa Micrófono. El micrófono solo se usa mientras grabas."},
+    {"q": "Mi grabación se paró a los 15 segundos", "a": "Es el límite de la versión gratuita. Pro graba hasta 5 minutos."},
+    {"q": "Compré Pro pero sigue bloqueado", "a": "Toca «[[restore]]» en la pantalla de Pro, debajo del botón de compra, o en «[[settings]]» (el engranaje). Usa la misma cuenta de Apple con la que compraste."}
+   ]},
+   {"h": "Rewound Pro", "b": [
+    "Pro es un pago único, sin suscripción. El juego, sus trozos y las rondas en grupo siguen siendo gratis. Pro añade:",
+    [
+     "grabaciones de hasta 5 minutos (gratis: 15 segundos)",
+     "una biblioteca ilimitada (gratis: 5 elementos)",
+     "importar sonido: «[[importfiles]]» y «[[importvideo]]» (un vídeo de Fotos; Rewound solo toma su sonido)",
+     "velocidad de 0,5× a 2× y tono hasta 12 semitonos más agudo o más grave, en «[[effects]]»",
+     "«[[loop]]», que repite el tramo entre los dos tiradores de la onda, y «[[trim]]», que se queda solo con ese tramo",
+     "exportar en m4a (archivo pequeño) o wav (sin pérdida) con el botón de compartir"
+    ],
+    "Importa solo sonidos que tengas derecho a usar."
+   ]},
+   {"h": "Contacto", "b": [
+    "¿Dudas o problemas? Escribe a {mail}."
+   ]}
+  ]
+ },
+ "privacy": {
+  "title": "Rewound – Privacidad",
+  "desc": "Rewound no recopila datos personales y no envía nada al desarrollador.",
+  "h1": "Privacidad",
+  "lede": "En breve: Rewound no recopila nada sobre ti y no envía nada al desarrollador.",
+  "sections": [
+   {"h": "Lo esencial", "b": [
+    "Rewound no recopila datos personales. No hay cuenta ni inicio de sesión, ni anuncios, ni analítica ni seguimiento, ni SDK de terceros. No se envía nada al desarrollador."
+   ]},
+   {"h": "Micrófono", "b": [
+    "Rewound solo escucha mientras has tocado el botón de grabar y hay una grabación en curso. iOS pide tu permiso la primera vez que grabas. Si dijiste que no, puedes darlo después en los Ajustes del iPhone › Rewound › Micrófono."
+   ]},
+   {"h": "Qué se guarda y dónde", "b": [
+    "Tus grabaciones, las rondas guardadas, los nombres de los jugadores y los ajustes se guardan únicamente en tu dispositivo, en el espacio propio de la app. Los ajustes son la cuenta atrás, la vibración, el número de jugadores, si se ha comprado Pro y un contador que decide cuándo puede la app pedir una valoración.",
+    "Si la copia de seguridad está activada, estos datos pueden entrar en la copia de tu propio dispositivo (iCloud o tu ordenador), como los datos de cualquier app. Rewound no tiene acceso a esa copia."
+   ]},
+   {"h": "Fotos y Archivos", "b": [
+    "Para importar se usan los selectores del sistema. Con un vídeo de Fotos, Rewound recibe solo el vídeo que eliges y extrae su sonido; no necesita permiso para acceder a tu fototeca. Con Archivos, recibe solo el archivo que eliges."
+   ]},
+   {"h": "Compartir una grabación", "b": [
+    "Una grabación sale de tu dispositivo solo cuando la exportas tú mismo con el menú de compartir. Tú decides adónde va."
+   ]},
+   {"h": "Compras", "b": [
+    "Rewound Pro se compra a través de Apple (App Store). El desarrollador nunca ve tus datos de pago. La app consulta a Apple, en tu dispositivo, si Pro está comprado. Las únicas peticiones que salen del dispositivo son las de compra del App Store."
+   ]},
+   {"h": "Petición de valoración", "b": [
+    "Si la app te pide que la valores, es la ventana estándar de iOS. El desarrollador no ve quién ha valorado ni qué ha escrito."
+   ]},
+   {"h": "Borrar tus datos", "b": [
+    "Borra los elementos uno a uno en la «[[lib]]», todo de golpe con «[[settings]]» › «[[delall]]», o elimina la app, y con ella desaparece todo."
+   ]},
+   {"h": "Niños", "b": [
+    "Rewound no recopila datos de nadie, así que tampoco de los niños."
+   ]},
+   {"h": "Cambios", "b": [
+    "Si esta política cambia, la nueva versión se publicará en esta página, con su fecha. Última actualización: 25 de noviembre de 2026."
+   ]},
+   {"h": "Contacto", "b": [
+    "¿Preguntas sobre privacidad? Escribe a {mail}."
+   ]}
+  ]
+ }
+}

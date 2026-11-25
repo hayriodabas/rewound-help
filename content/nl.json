@@ -1,0 +1,111 @@
+{
+ "ui": {"nav": "Pagina’s", "help": "Hulp", "privacy": "Privacy", "updated": "Laatst bijgewerkt", "date": "25 november 2026"},
+ "help": {
+  "title": "Rewound – Hulp",
+  "desc": "Zo gebruik je Rewound: een geluid opnemen, achterstevoren afspelen en leren om het zelf achterstevoren te zeggen.",
+  "h1": "Hulp",
+  "lede": "Rewound neemt een geluid op en speelt het achterstevoren af. Daarna leert het je om het zelf achterstevoren te zeggen.",
+  "sections": [
+   {"h": "Wat Rewound doet", "b": [
+    "Neem een willekeurig geluid op en hoor het omgekeerd. Het spel gaat een stap verder: je zegt een korte zin, luistert ernaar achterstevoren en probeert dat omgekeerde geluid met je eigen stem na te doen. Rewound draait je poging weer terug en laat zien hoe dichtbij je kwam."
+   ]},
+   {"h": "Opnemen", "b": [[
+    "Open het tabblad ‘[[rec]]’ en tik op de grote ronde knop. Zeg iets en tik nog eens om te stoppen.",
+    "De eerste keer vraagt iOS of Rewound de microfoon mag gebruiken. Zeg ja, anders kan er niets worden opgenomen.",
+    "Als je wilt, zet je bij ‘[[settings]]’ (het tandwiel) ‘[[countdown]]’ aan: dan wordt er 3, 2, 1 geteld voordat de opname begint.",
+    "Een opname opent met ‘[[rev]]’ geselecteerd. Tik op de afspeelknop om hem achterstevoren te horen, of kies ‘[[fwd]]’ om hem te horen zoals je hem zei. Tik of sleep over de golfvorm om naar elke plek te springen."
+   ]]},
+   {"h": "Het spel alleen spelen", "b": [
+    "Open het tabblad ‘[[game]]’ en laat ‘[[solo]]’ geselecteerd.",
+    {"ol": [
+     "Zeg een korte zin en luister ernaar achterstevoren.",
+     "Onder de speler is de zin op zijn stille momenten in genummerde stukken geknipt, twee tot zes. Tik op een stuk en het speelt in een lus. Zet ‘[[slow]]’ aan om het op 0,6× de snelheid te horen.",
+     "Tik op ‘[[copy]]’ en neem jezelf op terwijl je het omgekeerde geluid nadoet.",
+     "Rewound draait je poging terug en geeft er een score van 0 tot 100 aan. Elk stuk krijgt een teken en zijn nummer: ✓ raak, = bijna, ✗ ernaast. Het stuk dat er het verst naast zat wordt genoemd, en met ‘[[practise]]’ (met het nummer van dat stuk) ga je er meteen naar terug.",
+     "Met ‘[[save]]’ komt de ronde in je ‘[[lib]]’."
+    ]},
+    "Dezelfde zin kun je maximaal 10 keer proberen. Daarna begin je met een nieuwe."
+   ]},
+   {"h": "Spelen met vrienden", "b": [
+    "Kies op het tabblad ‘[[game]]’ voor ‘[[party]]’ en stel het aantal spelers in, van 2 tot 6. Tik op een speler om een naam te typen; Rewound onthoudt de namen.",
+    "Eén van jullie neemt de zin op, daarna doet iedereen hem om de beurt na en geeft de telefoon door. Aan het eind staat er een scorelijst die begint met de beste poging, en elke poging kun je nog eens teruggedraaid afspelen.",
+    "‘[[rematch]]’ start een nieuwe ronde met dezelfde zin. Met ‘[[save]]’ blijft de ronde bewaard in de ‘[[lib]]’."
+   ]},
+   {"h": "Een zin om mee te spelen", "b": [
+    "Een opname tot 15 seconden kan de zin van het spel worden: open hem en tik op ‘[[copygame]]’. Een bewaarde ronde heeft ‘[[again]]’.",
+    "Weet je niets te zeggen? Onder ‘[[idea]]’ staat een suggestie, en ‘[[another]]’ toont de volgende. Het zijn maar ideeën: zeg wat je wilt."
+   ]},
+   {"h": "Hoe de score werkt", "b": [
+    "Rewound vergelijkt de originele zin met jouw poging nadat die is teruggedraaid. Het kijkt naar het ritme (hoe luid elk moment is) en de helderheid (sissende klanken tegenover klinkers). Dit gebeurt allemaal op je iPhone.",
+    "Iets sneller of langzamer praten wordt niet bestraft. De score is voor de lol en meet niet hoe goed je zingt, en het is ook geen spraakherkenning: Rewound begrijpt geen woorden, het vergelijkt alleen de vorm van de twee geluiden. De tekens onder de stukken komen uit dezelfde vergelijking."
+   ]},
+   {"h": "Bibliotheek, trillen en verwijderen", "b": [[
+    "Je opnames en bewaarde rondes staan op het tabblad ‘[[lib]]’. Veeg over een rij om hem te verwijderen; houd hem ingedrukt om de naam te wijzigen. De gratis versie bewaart 5 items.",
+    "Met ‘[[settings]]’ › ‘[[delall]]’ wis je alles in één keer.",
+    "Om het trillen uit te zetten ga je naar ‘[[settings]]’ › ‘[[haptics]]’."
+   ]]},
+   {"h": "Werkt er iets niet?", "b": [
+    {"q": "De opnameknop doet niets, of er staat ‘[[micoff]]’", "a": "Rewound mag de microfoon niet gebruiken. Open de iPhone-[[settings]] › Rewound en zet Microfoon aan. De microfoon wordt alleen gebruikt terwijl je opneemt."},
+    {"q": "Mijn opname stopte na 15 seconden", "a": "Dat is de grens van de gratis versie. Met Pro neem je tot 5 minuten op."},
+    {"q": "Ik heb Pro gekocht, maar het is nog steeds vergrendeld", "a": "Tik op ‘[[restore]]’ op het Pro-scherm, onder de koopknop, of bij ‘[[settings]]’ (het tandwiel). Gebruik dezelfde Apple-account waarmee je hebt gekocht."}
+   ]},
+   {"h": "Rewound Pro", "b": [
+    "Pro is een eenmalige aankoop, zonder abonnement. Het spel, de stukken en de rondes om de beurt blijven gratis. Pro voegt toe:",
+    [
+     "opnames tot 5 minuten (gratis: 15 seconden)",
+     "een onbeperkte bibliotheek (gratis: 5 items)",
+     "geluid importeren: ‘[[importfiles]]’ en ‘[[importvideo]]’ (een video uit Foto’s; Rewound neemt alleen het geluid)",
+     "snelheid van 0,5× tot 2× en toonhoogte tot 12 halve tonen omhoog of omlaag, onder ‘[[effects]]’",
+     "‘[[loop]]’, dat het stuk tussen de twee handvatten op de golfvorm herhaalt, en ‘[[trim]]’, dat alleen dat stuk bewaart",
+     "exporteren als m4a (klein bestand) of wav (verliesvrij) met de deelknop"
+    ],
+    "Importeer alleen geluiden die je mag gebruiken."
+   ]},
+   {"h": "Contact", "b": [
+    "Vragen of problemen? Mail naar {mail}."
+   ]}
+  ]
+ },
+ "privacy": {
+  "title": "Rewound – Privacy",
+  "desc": "Rewound verzamelt geen persoonsgegevens en stuurt niets naar de ontwikkelaar.",
+  "h1": "Privacy",
+  "lede": "Kort gezegd: Rewound verzamelt niets over jou en stuurt niets naar de ontwikkelaar.",
+  "sections": [
+   {"h": "In het kort", "b": [
+    "Rewound verzamelt geen persoonsgegevens. Er is geen account of inlog, er zijn geen advertenties, geen analyse of tracking en geen SDK van derden. Er wordt niets naar de ontwikkelaar gestuurd."
+   ]},
+   {"h": "Microfoon", "b": [
+    "Rewound luistert alleen zolang je op de opnameknop hebt getikt en er een opname loopt. iOS vraagt de eerste keer dat je opneemt om toestemming. Heb je nee gezegd, dan kun je die later geven via iPhone-instellingen › Rewound › Microfoon."
+   ]},
+   {"h": "Wat er wordt bewaard, en waar", "b": [
+    "Je opnames, bewaarde spelrondes, spelersnamen en instellingen worden alleen op je apparaat bewaard, in de eigen opslag van de app. Die instellingen zijn het aftellen, het trillen, het aantal spelers, of Pro is gekocht en een teller die bepaalt wanneer de app om een beoordeling mag vragen.",
+    "Als back-up aanstaat, kunnen deze gegevens, net als de gegevens van elke app, in de back-up van je eigen apparaat terechtkomen (iCloud of je computer). Rewound heeft geen toegang tot die back-up."
+   ]},
+   {"h": "Foto’s en Bestanden", "b": [
+    "Importeren gebeurt met de keuzevensters van het systeem. Bij een video uit Foto’s krijgt Rewound alleen de video die je kiest en haalt het er het geluid uit; toestemming voor toegang tot je fotobibliotheek is niet nodig. Bij Bestanden krijgt het alleen het bestand dat je kiest."
+   ]},
+   {"h": "Een opname delen", "b": [
+    "Een opname verlaat je apparaat alleen als je hem zelf exporteert via het deelmenu. Jij bepaalt waar hij naartoe gaat."
+   ]},
+   {"h": "Aankopen", "b": [
+    "Rewound Pro koop je via Apple (App Store). De ontwikkelaar ziet nooit je betaalgegevens. De app vraagt op je apparaat aan Apple of Pro is gekocht. De enige verzoeken die het apparaat verlaten zijn de aankoopverzoeken van de App Store."
+   ]},
+   {"h": "Verzoek om een beoordeling", "b": [
+    "Als de app je vraagt om hem te beoordelen, is dat het standaardvenster van iOS. De ontwikkelaar ziet niet wie heeft beoordeeld of wat er is geschreven."
+   ]},
+   {"h": "Je gegevens verwijderen", "b": [
+    "Verwijder items één voor één in de ‘[[lib]]’, alles in één keer via ‘[[settings]]’ › ‘[[delall]]’, of verwijder de app: dan is alles weg."
+   ]},
+   {"h": "Kinderen", "b": [
+    "Rewound verzamelt van niemand gegevens, dus ook niet van kinderen."
+   ]},
+   {"h": "Wijzigingen", "b": [
+    "Als dit beleid verandert, staat de nieuwe versie met de datum op deze pagina. Laatst bijgewerkt: 25 november 2026."
+   ]},
+   {"h": "Contact", "b": [
+    "Vragen over privacy? Mail naar {mail}."
+   ]}
+  ]
+ }
+}

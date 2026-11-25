@@ -1,0 +1,111 @@
+{
+ "ui": {"nav": "Pages", "help": "Help", "privacy": "Privacy", "updated": "Last updated", "date": "25 November 2026"},
+ "help": {
+  "title": "Rewound – Help",
+  "desc": "How to use Rewound: record a sound, play it backwards, and learn to say it backwards.",
+  "h1": "Help",
+  "lede": "Rewound records a sound and plays it backwards. Then it teaches you to say it backwards yourself.",
+  "sections": [
+   {"h": "What Rewound does", "b": [
+    "Record any sound and hear it played in reverse. The game takes it one step further: you say a short phrase, listen to it backwards, and try to copy that backwards sound with your own voice. Rewound flips your attempt back around and tells you how close it came."
+   ]},
+   {"h": "Recording", "b": [[
+    "Open the [[rec]] tab and tap the big round button. Say something, then tap it again to stop.",
+    "The first time, iOS asks whether Rewound may use the microphone. Say yes, otherwise it cannot record.",
+    "If you like, turn on [[countdown]] in [[settings]] (the gear icon); it counts 3, 2, 1 before recording starts.",
+    "A recording opens with [[rev]] selected. Tap the play button to hear it backwards, or choose [[fwd]] to hear it as you said it. Tap or drag across the waveform to jump to any spot."
+   ]]},
+   {"h": "The game on your own", "b": [
+    "Open the [[game]] tab and keep [[solo]] selected.",
+    {"ol": [
+     "Say a short phrase, then listen to it backwards.",
+     "Under the player the phrase is cut into numbered pieces, 2 to 6 of them, split at its quiet moments. Tap a piece and it plays in a loop. Switch on [[slow]] to hear it at 0.6× speed.",
+     "Tap [[copy]] and record yourself copying the backwards sound.",
+     "Rewound turns your attempt back around and gives it a score out of 100. Each piece gets a mark and its number: ✓ matched, = close, ✗ off. It names the piece that strayed the most, and [[practise]] (with that piece’s number) takes you straight back to it.",
+     "[[save]] puts the round in your [[lib]]."
+    ]},
+    "You can try the same phrase up to 10 times. After that, start a new one."
+   ]},
+   {"h": "Playing with friends", "b": [
+    "On the [[game]] tab choose [[party]] and set the number of players, from 2 to 6. Tap a player to type a name; Rewound remembers the names.",
+    "One of you records the phrase, then everyone copies it in turn and passes the phone on. At the end you get a table that starts with the closest attempt, and every attempt can be played back flipped around again.",
+    "[[rematch]] starts another round with the same phrase. [[save]] keeps the round in the [[lib]]."
+   ]},
+   {"h": "A phrase to play with", "b": [
+    "A recording of up to 15 seconds can become the game’s phrase: open it and tap [[copygame]]. A saved round has [[again]].",
+    "Nothing to say? Under [[idea]] you find a suggestion, and [[another]] shows the next one. They are only ideas; say whatever you like."
+   ]},
+   {"h": "How the score works", "b": [
+    "Rewound compares the original phrase with your attempt once it has been flipped back around. It looks at rhythm (how loud each moment is) and brightness (hissy sounds versus vowels). All of this happens on your iPhone.",
+    "Saying it a little faster or slower is not punished. The score is for fun, not a measurement of how well you sing, and it is not speech recognition: Rewound does not understand words, it only compares how the two sounds are shaped. The marks under the pieces come from the same comparison."
+   ]},
+   {"h": "Library, vibration and deleting", "b": [[
+    "Your recordings and saved rounds live in the [[lib]] tab. Swipe a row to delete it; touch and hold to rename it. The free version keeps 5 items.",
+    "[[settings]] › [[delall]] removes everything at once.",
+    "To switch the vibration off, go to [[settings]] › [[haptics]]."
+   ]]},
+   {"h": "Something not working?", "b": [
+    {"q": "The record button does nothing, or it says “[[micoff]]”", "a": "Rewound is not allowed to use the microphone. Open the iPhone’s [[settings]] › Rewound and switch Microphone on. The microphone is only used while you are recording."},
+    {"q": "My recording stopped after 15 seconds", "a": "That is the limit of the free version. Pro records up to 5 minutes."},
+    {"q": "I bought Pro but it is still locked", "a": "Tap [[restore]] on the Pro screen, below the buy button, or in [[settings]] (the gear icon). Use the same Apple Account you bought with."}
+   ]},
+   {"h": "Rewound Pro", "b": [
+    "Pro is a single purchase. There is no subscription. The game, its pieces and the pass-the-phone rounds stay free. Pro adds:",
+    [
+     "recordings of up to 5 minutes (free: 15 seconds)",
+     "an unlimited library (free: 5 items)",
+     "importing sound: [[importfiles]] and [[importvideo]] (a video from Photos; Rewound takes its sound)",
+     "speed from 0.5× to 2× and pitch up to 12 semitones up or down, under [[effects]]",
+     "[[loop]], which repeats the stretch between the two handles on the waveform, and [[trim]], which keeps only that stretch",
+     "export as m4a (small file) or wav (lossless) with the share button"
+    ],
+    "Only import sounds you have the right to use."
+   ]},
+   {"h": "Contact", "b": [
+    "Questions or problems? Write to {mail}."
+   ]}
+  ]
+ },
+ "privacy": {
+  "title": "Rewound – Privacy",
+  "desc": "Rewound collects no personal data and sends nothing to the developer.",
+  "h1": "Privacy",
+  "lede": "Short version: Rewound collects nothing about you and sends nothing to the developer.",
+  "sections": [
+   {"h": "In short", "b": [
+    "Rewound does not collect personal data. There is no account or sign-in, no ads, no analytics or tracking, and no third-party SDK. Nothing is sent to the developer."
+   ]},
+   {"h": "Microphone", "b": [
+    "Rewound listens only while you have tapped the record button and a recording is running. iOS asks for your permission the first time you record. If you said no, you can allow it later in the iPhone’s Settings › Rewound › Microphone."
+   ]},
+   {"h": "What is stored, and where", "b": [
+    "Your recordings, saved game rounds, player names and settings are stored only on your device, in the app’s own storage. The settings are the countdown, the vibration, the number of players, whether Pro has been bought, and a counter that decides when the app may ask for a rating.",
+    "If backup is on, this data can end up in your own device backup (iCloud or your computer), like the data of any app. Rewound has no access to that backup."
+   ]},
+   {"h": "Photos and Files", "b": [
+    "Importing uses the system’s own pickers. For a video from Photos, Rewound receives only the video you pick and takes its sound; it does not need permission to access your photo library. For Files, it receives only the file you choose."
+   ]},
+   {"h": "Sharing a recording", "b": [
+    "A recording leaves your device only when you export it yourself through the share sheet. You decide where it goes."
+   ]},
+   {"h": "Purchases", "b": [
+    "Rewound Pro is bought through Apple (App Store). The developer never sees your payment details. The app asks Apple, on your device, whether Pro has been bought. The only requests that leave the device are the App Store’s own purchase requests."
+   ]},
+   {"h": "Rating request", "b": [
+    "If the app asks you to rate it, that is the standard iOS window. The developer does not see who rated or what they wrote."
+   ]},
+   {"h": "Deleting your data", "b": [
+    "Delete items one by one in the [[lib]], everything at once with [[settings]] › [[delall]], or delete the app, which removes all of it."
+   ]},
+   {"h": "Children", "b": [
+    "Rewound collects data from no one, so it collects none from children either."
+   ]},
+   {"h": "Changes", "b": [
+    "If this policy changes, the new version will be published on this page, with the date. It was last updated on 25 November 2026."
+   ]},
+   {"h": "Contact", "b": [
+    "Questions about privacy? Write to {mail}."
+   ]}
+  ]
+ }
+}

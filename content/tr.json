@@ -1,0 +1,111 @@
+{
+ "ui": {"nav": "Sayfalar", "help": "Yardım", "privacy": "Gizlilik", "updated": "Son güncelleme", "date": "25 Kasım 2026"},
+ "help": {
+  "title": "Rewound – Yardım",
+  "desc": "Rewound nasıl kullanılır: bir sesi kaydet, tersten dinle ve tersten söylemeyi öğren.",
+  "h1": "Yardım",
+  "lede": "Rewound bir sesi kaydeder ve tersten çalar. Sonra da onu kendin tersten söylemeyi öğretir.",
+  "sections": [
+   {"h": "Rewound ne yapar", "b": [
+    "İstediğin bir sesi kaydet ve tersten dinle. Oyun bir adım daha ileri gider: kısa bir cümle söylersin, tersten dinlersin, sonra o ters sesi kendi sesinle taklit etmeye çalışırsın. Rewound denemeni yeniden çevirir ve ne kadar yaklaştığını gösterir."
+   ]},
+   {"h": "Kayıt", "b": [[
+    "“[[rec]]” sekmesini aç ve büyük yuvarlak düğmeye dokun. Bir şey söyle, durdurmak için tekrar dokun.",
+    "İlk seferde iOS, Rewound’un mikrofonu kullanıp kullanamayacağını sorar. İzin ver, yoksa kayıt yapılamaz.",
+    "İstersen “[[settings]]” (dişli simgesi) içinden “[[countdown]]” seçeneğini aç; kayıt başlamadan önce 3, 2, 1 diye sayar.",
+    "Kayıt “[[rev]]” seçili olarak açılır. Tersten dinlemek için çal düğmesine dokun, söylediğin gibi dinlemek için “[[fwd]]” seç. Dalga formuna dokunarak ya da sürükleyerek istediğin yere atlayabilirsin."
+   ]]},
+   {"h": "Oyunu tek başına oynamak", "b": [
+    "“[[game]]” sekmesini aç ve “[[solo]]” seçili kalsın.",
+    {"ol": [
+     "Kısa bir cümle söyle ve tersten dinle.",
+     "Oynatıcının altında cümle, sessiz anlarından numaralı parçalara bölünür; iki ila altı parça olur. Bir parçaya dokunursan döngüde çalar. 0,6× hızda dinlemek için “[[slow]]”u aç.",
+     "“[[copy]]”e dokun ve ters sesi taklit ederken kendini kaydet.",
+     "Rewound denemeni geri çevirir ve 100 üzerinden puan verir. Her parçaya bir işaret ve numarası düşer: ✓ tuttu, = yakın, ✗ tutmadı. En çok sapan parçanın adı söylenir ve “[[practise]]” (o parçanın numarasıyla) seni doğrudan oraya götürür.",
+     "“[[save]]” turu “[[lib]]” sekmene kaydeder."
+    ]},
+    "Aynı cümleyi en fazla 10 kez deneyebilirsin. Sonra yeni bir cümleye geç."
+   ]},
+   {"h": "Arkadaşlarla oynamak", "b": [
+    "“[[game]]” sekmesinde “[[party]]”yi seç ve oyuncu sayısını 2 ile 6 arasında ayarla. Ad yazmak için bir oyuncuya dokun; Rewound adları hatırlar.",
+    "İçinizden biri cümleyi kaydeder, sonra herkes sırayla taklit eder ve telefonu bir sonrakine verir. Sonunda en yakın denemeyle başlayan bir tablo çıkar; her deneme tekrar geri çevrilmiş hâliyle dinlenebilir.",
+    "“[[rematch]]” aynı cümleyle yeni bir tur başlatır. “[[save]]” turu “[[lib]]” içinde tutar."
+   ]},
+   {"h": "Oynamak için bir cümle", "b": [
+    "15 saniyeye kadar bir kayıt oyunun cümlesi olabilir: kaydı aç ve “[[copygame]]”e dokun. Kayıtlı bir turda “[[again]]” düğmesi bulunur.",
+    "Ne diyeceğini bulamadın mı? “[[idea]]” altında bir öneri çıkar, “[[another]]” sıradakini gösterir. Bunlar yalnızca fikir; canının istediğini söyle."
+   ]},
+   {"h": "Puan nasıl hesaplanır", "b": [
+    "Rewound, asıl cümleyi geri çevrilmiş denemenle karşılaştırır. Ritme (her anın ne kadar yüksek sesli olduğu) ve parlaklığa (tıslayan sesler ile ünlüler arasındaki fark) bakar. Bunların hepsi iPhone’unda olur.",
+    "Biraz daha hızlı ya da yavaş söylemek puan kırdırmaz. Puan eğlence içindir; şarkı söyleme becerini ölçmez. Konuşma tanıma da değildir: Rewound sözcükleri anlamaz, yalnızca iki sesin biçimini karşılaştırır. Parçaların altındaki işaretler de aynı karşılaştırmadan gelir."
+   ]},
+   {"h": "Kitaplık, titreşim ve silme", "b": [[
+    "Kayıtların ve kaydedilen turlar “[[lib]]” sekmesinde durur. Bir satırı silmek için kaydır, yeniden adlandırmak için basılı tut. Ücretsiz sürüm 5 öğe saklar.",
+    "“[[settings]]” › “[[delall]]” her şeyi tek seferde siler.",
+    "Titreşimi kapatmak için “[[settings]]” › “[[haptics]]” bölümüne git."
+   ]]},
+   {"h": "Bir şey çalışmıyor mu?", "b": [
+    {"q": "Kayıt düğmesi hiçbir şey yapmıyor ya da “[[micoff]]” yazıyor", "a": "Rewound’un mikrofonu kullanma izni yok. iPhone’un “[[settings]]” › Rewound bölümünü aç ve Mikrofon’u etkinleştir. Mikrofon yalnızca kayıt yaparken kullanılır."},
+    {"q": "Kaydım 15 saniyede durdu", "a": "Bu, ücretsiz sürümün sınırı. Pro ile 5 dakikaya kadar kayıt yapılır."},
+    {"q": "Pro’yu satın aldım ama hâlâ kilitli", "a": "Pro ekranında satın alma düğmesinin altındaki ya da “[[settings]]” (dişli) içindeki “[[restore]]”a dokun. Satın alırken kullandığın Apple Hesabıyla giriş yapmış olmalısın."}
+   ]},
+   {"h": "Rewound Pro", "b": [
+    "Pro tek seferlik bir satın alma; abonelik yok. Oyun, parçalar ve elden ele turlar ücretsiz kalır. Pro şunları ekler:",
+    [
+     "5 dakikaya kadar kayıt (ücretsiz: 15 saniye)",
+     "sınırsız kitaplık (ücretsiz: 5 öğe)",
+     "ses içe aktarma: “[[importfiles]]” ve “[[importvideo]]” (Fotoğraflar’daki bir video; Rewound yalnızca sesini alır)",
+     "“[[effects]]” altında 0,5× ile 2× arası hız ve yukarı ya da aşağı 12 yarım ses perde",
+     "“[[loop]]” dalga formundaki iki tutamaç arasını tekrarlar, “[[trim]]” yalnızca o aralığı bırakır",
+     "paylaş düğmesiyle m4a (küçük dosya) veya wav (kayıpsız) olarak dışa aktarma"
+    ],
+    "Yalnızca kullanma hakkın olan sesleri içe aktar."
+   ]},
+   {"h": "İletişim", "b": [
+    "Sorun mu var, sormak mı istiyorsun? {mail} adresine yaz."
+   ]}
+  ]
+ },
+ "privacy": {
+  "title": "Rewound – Gizlilik",
+  "desc": "Rewound kişisel veri toplamaz ve geliştiriciye hiçbir şey göndermez.",
+  "h1": "Gizlilik",
+  "lede": "Kısaca: Rewound senin hakkında hiçbir şey toplamaz, geliştiriciye hiçbir şey göndermez.",
+  "sections": [
+   {"h": "Özet", "b": [
+    "Rewound kişisel veri toplamaz. Hesap ya da giriş yok, reklam yok, analiz ya da izleme yok, üçüncü taraf SDK’sı yok. Geliştiriciye hiçbir şey gönderilmez."
+   ]},
+   {"h": "Mikrofon", "b": [
+    "Rewound yalnızca kayıt düğmesine dokunduğun ve bir kayıt sürdüğü sürece dinler. İzni iOS ilk kayıtta sorar. Hayır dediysen sonra iPhone Ayarlar › Rewound › Mikrofon bölümünden açabilirsin."
+   ]},
+   {"h": "Ne saklanır, nerede", "b": [
+    "Kayıtların, kaydedilen oyun turların, oyuncu adların ve ayarların yalnızca cihazında, uygulamanın kendi alanında saklanır. Ayarlar şunlardır: geri sayım, titreşim, oyuncu sayısı, Pro’nun satın alınıp alınmadığı bilgisi ve uygulamanın ne zaman değerlendirme isteyebileceğine karar veren bir sayaç.",
+    "Yedekleme açıksa bu veriler, her uygulamanın verisi gibi, kendi cihaz yedeğine (iCloud ya da bilgisayar) girebilir. Rewound o yedeğe erişemez."
+   ]},
+   {"h": "Fotoğraflar ve Dosyalar", "b": [
+    "İçe aktarma sistemin kendi seçicilerini kullanır. Fotoğraflar’daki bir videoda Rewound yalnızca seçtiğin videoyu alır ve sesini çıkarır; fotoğraf arşivine erişim izni gerekmez. Dosyalar’da yalnızca seçtiğin dosyayı alır."
+   ]},
+   {"h": "Bir kaydı paylaşmak", "b": [
+    "Bir kayıt cihazından yalnızca sen paylaşma sayfasıyla dışa aktardığında çıkar. Nereye gideceğine sen karar verirsin."
+   ]},
+   {"h": "Satın alma", "b": [
+    "Rewound Pro, Apple (App Store) üzerinden satın alınır. Geliştirici ödeme bilgilerini hiçbir zaman görmez. Uygulama, Pro’nun alınıp alınmadığını cihazında Apple’a sorarak öğrenir. Cihazdan çıkan tek istekler App Store’un satın alma istekleridir."
+   ]},
+   {"h": "Değerlendirme isteği", "b": [
+    "Uygulama senden değerlendirme istediğinde çıkan, iOS’un standart penceresidir. Geliştirici kimin puan verdiğini ya da ne yazdığını görmez."
+   ]},
+   {"h": "Verilerini silmek", "b": [
+    "Öğeleri “[[lib]]” içinde tek tek, hepsini “[[settings]]” › “[[delall]]” ile tek seferde silebilirsin; uygulamayı silmek de hepsini kaldırır."
+   ]},
+   {"h": "Çocuklar", "b": [
+    "Rewound kimseden veri toplamadığı için çocuklardan da toplamaz."
+   ]},
+   {"h": "Değişiklikler", "b": [
+    "Bu politika değişirse yeni sürüm tarihiyle birlikte bu sayfada yayımlanır. Son güncelleme: 25 Kasım 2026."
+   ]},
+   {"h": "İletişim", "b": [
+    "Gizlilikle ilgili sorular için {mail} adresine yaz."
+   ]}
+  ]
+ }
+}
